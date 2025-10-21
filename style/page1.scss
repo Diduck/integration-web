@@ -7,12 +7,28 @@ header{
     background-size: cover;
     width: 100%;
     height: 100vh;
+    position: relative;
     h1{
         width: 100%;
         margin: 0;
         padding: 0;
         text-align: center;
+        padding-top: 20vh;
 
-        @include h1-safari;
+        
+        background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.35) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
+
+    img{
+        width: 100vw;
+        height: auto;
+        position: absolute;
+        object-fit: cover;
+        object-position: center;
+        top: 0;
+        left: 0;
     }
+}
