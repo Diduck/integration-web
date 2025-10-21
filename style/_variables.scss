@@ -1,0 +1,94 @@
+$color-white: #ffffff;
+$color-black: #000000;
+$color-gray: #D9D9D9;
+$color-orange: #F5AB00;
+$color-orange2: #DD9B00;
+$color-red: #DC4332;
+$color-pink: rgba(220, 67, 50, 0.35);
+$color-pink2: #EAA79F;
+$color-blue1: #58D4D7;
+$color-blue2: #4C9ABF;
+
+
+.img-illustration{
+    border-radius: 10px;
+}
+
+h1{
+    font-family: Poppins;
+    color: $color-black;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+nav{
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+@mixin gray-block {
+  background-color: $color-gray;
+  opacity: 0.3;
+}
+
+@mixin h1-safari{
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.35) 100%);
+}
+
+@mixin h1-terre{
+    background: linear-gradient(180deg, #DC4332 0%, rgba(220, 67, 50, 0.35) 100%);
+}
+
+@mixin h1-polynesie{
+    background: linear-gradient(180deg, #58D4D7 0%, #FFF 99.52%);
+}
+
+h1{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h2{
+    color: $color-black;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
+h3{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+h4{
+    color: $color-black;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+p{
+    color: $color-black;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+header{
+    height: 950px;
+}

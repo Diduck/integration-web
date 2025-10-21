@@ -1,0 +1,9 @@
+@import "variables";
+
+header{
+    background-color: red;
+    background-image: url("./../img/HEADER-SAFARI.jpg");
+    h1{
+        @include h1-safari;
+    }
+    }
