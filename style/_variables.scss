@@ -36,15 +36,15 @@ nav{
 }
 
 @mixin h1-safari{
-    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.35) 100%);
+    color: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.35) 100%);
 }
 
 @mixin h1-terre{
-    background: linear-gradient(180deg, #DC4332 0%, rgba(220, 67, 50, 0.35) 100%);
+    color: linear-gradient(180deg, #DC4332 0%, rgba(220, 67, 50, 0.35) 100%);
 }
 
 @mixin h1-polynesie{
-    background: linear-gradient(180deg, #58D4D7 0%, #FFF 99.52%);
+    color: linear-gradient(180deg, #58D4D7 0%, #FFF 99.52%);
 }
 
 h1{

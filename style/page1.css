@@ -65,8 +65,16 @@ header {
 
 header {
   background-color: red;
+  margin: 0;
   background-image: url("./../img/HEADER-SAFARI.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 header h1 {
-  background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.35) 100%);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.35) 100%);
 }/*# sourceMappingURL=page1.css.map */
