@@ -365,6 +365,46 @@ footer {
     font-size: 100px;
     top: 200px;
   }
+  .include-price {
+    flex-direction: column;
+    margin: 0;
+    padding: 80px 100px 250px 100px;
+    border-radius: 0;
+  }
+  .include-price .right, .include-price .left {
+    width: 100% !important;
+    padding: 0;
+  }
+  .include-price .imgdiv {
+    justify-content: center !important;
+  }
+  #special-offer {
+    flex-direction: column;
+    margin: 0;
+    padding: 80px 50px 250px 50px;
+    border-radius: 0;
+  }
+  #special-offer .right, #special-offer .left {
+    width: 100% !important;
+    padding: 0;
+    padding-top: 100px;
+    align-items: center;
+  }
+  #special-offer .left .box-chiffre {
+    width: 300px;
+  }
+  #sejour {
+    flex-direction: column;
+    margin: 0;
+    padding: 80px 50px 250px 50px;
+    border-radius: 0;
+  }
+  #sejour .right, #sejour .left {
+    width: 100% !important;
+    padding: 0;
+    padding-top: 100px;
+    align-items: center;
+  }
 }
 @media (max-width: 768px) {
   header {
@@ -414,16 +454,5 @@ footer {
   .include-price .imgdiv {
     justify-content: center !important;
   }
-  #special-offer {
-    flex-direction: column;
-    margin: 0;
-    padding: 80px 50px 250px 50px;
-    border-radius: 0;
-  }
-  #special-offer .right, #special-offer .left {
-    width: 100% !important;
-    padding: 0;
-    padding-top: 50px;
-    align-items: center;
-  }
-}/*# sourceMappingURL=page1.css.map */
+}
+@me;/*# sourceMappingURL=page1.css.map */
