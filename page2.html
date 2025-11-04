@@ -1,16 +1,191 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Safari</title>
-    <link rel="stylesheet" href="./style/main.css">
-    <link rel="stylesheet" href="./style/page1.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/page2.css" />
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <h1>Safari</h1>
-    </header>   
-</body>
+      <nav>
+        <ul>
+            <li><a href="./index.html">Accueil</a></li>
+            <li class="point"><img src="./img/POINT.png" alt=""></li>
+            <li><a href="./page1.html">Safari</a></li>
+            <li><a href="./page2.html">Cinque Terre</a></li>
+            <li><a href="./page3.html">Polynésie</a></li>
+        </ul>
+    </nav>
+
+    <div class="burger" onclick="document.querySelector('ul').classList.toggle('active'); this.classList.toggle('active');">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+      <h1>CINQUE TERRE</h1>
+      <!--
+        <img src="./img/imagedetouree.png" alt="Image header avec cinque terre">
+        -->
+      <img src="./img/HEADER-REC.svg" alt="" class="rec">
+    </header>
+
+    <section class="chemin">
+      <img src="./img/groupe.png" alt="Chemin pointillés" />
+    </section>
+
+    <section class="title1">
+      <h2 class="texte">QUE FAIRE AUX CINQUE TERRE ?</h2>
+      <h3 class="texte2">TOP 3 DES ACTIVITÉS INCONTOURNABLES</h3>
+
+      <div class="images">
+        <div class="sentiero">
+          <img src="./img/sentieroazzurro.png" alt="Image sentiero azzurro" />
+          <h4>Randonnée sur le Sentiero Azzurro</h4>
+          <p>
+            Parcours emblématique reliant les cinq villages, le Sentiero Azzurro
+            offre des panoramas à couper le souffle sur la mer et les falaises.
+            Les tronçons les plus populaires relient Vernazza à Monterosso al
+            Mare, avec des points de vue spectaculaires à chaque détour. C’est
+            une expérience incontournable pour les amoureux de nature et de
+            photographie.
+          </p>
+        </div>
+        <div class="vin">
+          <img src="./img/degustationvin.png" alt="Image vin et raisins" />
+          <h4>Dégustation de vin local à Corniglia</h4>
+          <p>
+            Perché au centre des Cinque Terre, Corniglia est entouré de
+            vignobles en terrasses cultivés depuis des siècles. Les caves
+            locales proposent des dégustations du Sciacchetrà, un vin doux et
+            rare, ainsi que d’autres crus ligures. Vous pouvez y rencontrer des
+            producteurs passionnés et découvrir les secrets de cette viticulture
+            unique, suspendue entre ciel et mer.
+          </p>
+        </div>
+        <div class="kayak">
+          <img
+            src="./img/kayakcinqueterre.png"
+            alt="Image vernazza de la mer"
+          />
+          <h4>Kayak ou paddle sur la côte ligure</h4>
+          <p>
+            Pour une découverte plus active, loue un kayak ou un stand-up paddle
+            à Monterosso ou Manarola. Vous pourrez explorer les criques cachées,
+            les grottes marines et profiter d’une vue imprenable sur les
+            villages depuis la mer. C’est une activité relaxante et
+            rafraîchissante, idéale lors des journées ensoleillées.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="offres">
+      <h2 class="text">NOS OFFRES DE SÉJOURS</h2>
+      <h3 class="text2">
+        Cinq villages, mille expériences : choisissez votre escapade.
+      </h3>
+
+      <div class="diffoffres">
+        <div class="test">
+          <h5>Séjour découverte 3 jours / 2 nuits</h5>
+          <div class="offre1">
+            <p>
+              Explorez les Cinque Terre et laissez-vous séduire par leurs
+              villages colorés, leurs ruelles pittoresques et leurs panoramas
+              spectaculaires.
+            </p>
+            <button>Découvrir</button>
+          </div>
+        </div>
+
+        <div class="tac">
+          <h5>Circuit romantique entre mer et vignes</h5>
+          <div class="offre2">
+            <p>
+              Célébrez l’Italie à deux : balades au coucher du soleil,
+              dégustations de vin dans les vignobles en terrasses et moments
+              inoubliables au bord de la mer.
+            </p>
+            <button>Découvrir</button>
+          </div>
+        </div>
+
+        <div class="tac">
+          <h5>Aventure active : randonnées et kayak</h5>
+          <div class="offre3">
+          <p>
+            Partez à l’assaut des sentiers côtiers et explorez la côte depuis la
+            mer en kayak. Entre nature et sensations, ce séjour est idéal pour
+            les passionnés d’aventure.
+          </p>
+          <button>Découvrir</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carroussel">
+      <div class="riorio">
+        <img src="./img/rio.png" alt="image de riomaggiore"/>
+      </div>
+      <div class="vernaverna">
+        <img src="./img/verna.png" alt="image de vernazza"/>
+      </div>
+      <div class="manamana">
+        <img src="./img/mana.png" alt="image de manarola"/>
+      </div>
+    </section>
+
+    <section class="offer">
+      <div class="cadeau">
+        <h2 class="special">OFFRE SPÉCIALE</h2>
+        <h3 class="text2">Profitez-en maintenant !</h3>
+
+        <p>Réservez avant le 31 octobre et bénéficiez de -10% 
+          sur le Séjour Découverte 3 jours / 2 nuits !</p>
+
+          <button>PROFITER DE L'OFFRE</button>
+      </div>
+      <div class="image5">
+        <img src="./img/offer.png" alt="offre spéciale -10% sur un voyage au cinque terre">
+      </div>
+    </section>
+
+    <footer>
+      <div class="nav box-footer">
+          <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="page1.html">Safari</a></li>
+              <li><a href="page2.html">Cinque Terre</a></li>
+              <li><a href="page3.html">Polynésie</a></li>
+          </ul>
+      </div>
+
+      
+      <div class="stars box-footer">
+          <div class="rating">
+              <img src="./img/STARS.png" alt="">
+              <p>4,8 sur 5</p>
+              <p>300 avis</p>
+          </div>
+          <img src="./img/PLANE.png" class="plane" alt="">
+      </div>
+  
+      <div class="right box-footer">
+          <img src="./img/INSTAGRAM.png" alt="">
+          <img src="./img/TWITTER.png" alt="">
+          <img src="./img/YOUTUBE.png" alt="">
+          <img src="./img/FACEBOOK.png" alt="">
+      </div>
+  </footer>
+
+  </body>
 </html>
