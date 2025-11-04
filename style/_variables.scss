@@ -9,25 +9,32 @@ $color-pink2: #eaa79f;
 $color-blue1: #58d4d7;
 $color-blue2: #4c9abf;
 
-.img-illustration {
-  border-radius: 10px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+.img-illustration{
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-@mixin font() {
-  font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
+@mixin font(){
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
 
-h1 {
-  font-family: Poppins;
-  color: $color-black;
-  font-size: 200px;
-  font-style: normal;
-  font-weight: 800;
+
+h1{
+    font-family: Poppins;
+    color: $color-black;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+nav{
+    @include font();
+    font-weight: 500;
 }
 
 nav {
@@ -40,6 +47,7 @@ nav {
   opacity: 0.3;
 }
 
+<<<<<<< HEAD
 @mixin h1-safari {
   color: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.35) 100%);
 }
@@ -84,6 +92,49 @@ h4 {
 
 @mixin box-grey() {
   background-color: rgba(217, 217, 217, 0.3);
+=======
+
+
+h1{
+    @include font();
+    font-size: 200px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h2{
+    @include font();
+    color: $color-black;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
+h3{
+    @include font();
+    color: #000;
+    font-size: 24px;
+    line-height: 44px;
+}
+
+h4{
+    @include font();
+    color: $color-black;
+    font-size: 24px;
+    line-height: 44px;
+}
+
+@mixin box-grey(){
+    background-color: rgba(217, 217, 217, 0.3)
+}
+
+p{
+    color: $color-black;
+    @include font();
+    font-weight: 300;
+    line-height: 34px;
+>>>>>>> 60e2580 (test header)
 }
 
 p {
