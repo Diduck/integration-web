@@ -3,14 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safari</title>
+    <title>Polynésie</title>
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/page3.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/header.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Safari</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li class="point"><img src="./img/POINT.png" alt=""></li>
+                <li><a href="./page1.html">Safari</a></li>
+                <li><a href="./page2.html">Cinque Terre</a></li>
+                <li><a href="./page3.html">Polynésie</a></li>
+            </ul>
+        </nav>
+
+        <div class="burger" onclick="document.querySelector('ul').classList.toggle('active'); this.classList.toggle('active');">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h1>POLYNÉSIE</h1>
+        <img src="./img/headermasquepolynesie.png" alt="headerpolynesiemasque">
+        <img src="./img/HEADER-REC.svg" alt="" class="rec">
     </header>   
+
+    <div>
+        <img class="cheminile" src="./img/cheminile.png" alt="cheminile">
+    </div>
+
+    <section>
+        <div class="que-faire-pol">
+            <h2>QUE FAIRE EN POLYNÉSIE FRANÇAISE ?</h2>
+            <h3>ACTIVITÉS SOUS MARINE</h3>
+        </div>
+        <div class="pack1">
+            <div class="plongee"> 
+                <img src="./img/Plongee.png" alt="plongee">
+                <h4>Plongée sous marine</h4>
+                <p>Immersion totale pour voir la grande faune (requins, raies mantas, napoléons) dans une visibilité exceptionnelle. Idéal pour les baptêmes ou les plongées dérivantes.</p>
+            </div>
+            <div class="baleine"> 
+                <img src="./img/Baleine.png" alt="baleine">
+                <h4>Observation des baleines </h4>
+                <p>Rencontre réglementée et émouvante avec les baleines à bosse qui migrent dans les eaux chaudes pour se reproduire. Possible de les observer en surface et parfois de nager à proximité.</p>
+            </div>
+            <div class="snorkeling"> 
+                <img class="snork" src="./img/Snorkeling.png" alt="snorkeling">
+                <h4>Snorkeling</h4>
+                <p>Exploration facile des Jardins de Corail et lagons clairs. Nagez en surface avec poissons tropicaux, tortues, raies et requins inoffensifs, accessible à tous.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="fleurs">
+        <img src="./img/Fleurgauche.png" alt="fleurga">
+        <img src="./img/Fleurdroite.png" alt="fleurdr">
+    </div>
+
+    <section>
+        <div class="act-terre">
+            <h3>ACTIVITÉS DANS LES TERRES</h3> 
+        </div>
+        <div class="pack2">
+            <div class="safari4">
+                <img src="./img/4x4.png" alt="4X4">
+                <h4>Safari 4x4 vers le Belvédère</h4>
+                <p>Cette excursion permet de pénétrer au cœur des îles par des pistes escarpées, inaccessibles aux véhicules classiques. Le 4x4 vous emmène vers des points de vue spectaculaires, des champs d'ananas, et des cratères volcaniques, avec les explications d'un guide local.</p>
+            </div>
+            <div class="vanille">
+                <img src="./img/Vanilleraie.png" alt="vanille">
+                <h4>Visite de vanilleraie</h4>
+                <p>C'est une immersion sensorielle où vous apprenez les étapes complexes et manuelles de la culture de la Vanille de Tahïti, de la pollinisation délicate à la préparation et au séchage des gousses, le tout dans un parfum enivrant.</p>
+            </div>
+            <div class="randos">
+                <img src="./img/Randonnees.png" alt="randos">
+                <h4>Randonnées</h4>
+                <p>Cette activité explore l'intérieur des îles hautes (volcaniques) comme Tahiti et Moorea. Il s'agit de traverser des forêts luxuriantes, d'atteindre des cascades spectaculaires ou de grimper vers des belvédèresoffrant des vues panoramiques sur les lagons et les baies.
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="offresej">
+        <h2>NOS OFFRES DE SÉJOURS</h2>
+        </div>
+        <div class="offre1">
+            <div>
+                <h4>L'Essentiel Romantique :</h4>
+                <p> 
+                    Pour les voyages de noces, couples, amateurs de luxe et de détente  
+                </p>
+                <ul>
+                    <li>- 10 à 12 jours</li>
+                    <li>- Itinéraire : Tahiti (1N), Moorea (4N) et Bora Bora (5N)</li>
+                </ul>
+                <h4>L'expérience :</h4>
+                <ul>
+                    <li>- Bungalows sur pilotis garantis à Bora Bora.</li>
+                    <li>- Détente totale, dîners privés au coucher du soleil.</li>
+                    <li>- Excursion lagon avec raies et requins à Moorea.</li>
+                    <li>- Activités nautiques douces (kayak, paddle) sur le plus beau lagon du monde.</li>
+                </ul>
+                <button class="bt1">DÉCOUVRIR</button>
+            </div>
+            <img class="imgrom" src="./img/Rom.jpg" alt="offre-romantique">
+    
+        
+        </div>
+
+
+        <div class="offre2">
+            <div>
+                <h4>L'Aventure Bleue :</h4>
+                <p> 
+                    Pour les plongeurs certifiés, amateurs de snorkeling, chercheurs d'authenticité  
+                </p>
+                <ul>
+                    <li>- 14 jours</li>
+                    <li>- Itinéraire : Tahiti (1N), Rangiroa (5N) , Fakarava (5N) et Moorea (3N)</li>
+                </ul>
+                <h4>L'expérience :</h4>
+                <ul>
+                    <li>- Plongées dérivantes mythiques dans les passes de Rangiroa (requins, dauphins)</li>
+                    <li>- Découverte de Fakarava, Réserve de Biosphère UNESCO</li>
+                    <li>- Hébergement en pensions de famille pour une immersion authentique aux Tuamotu</li>
+                </ul>
+                <button class="bt2">DÉCOUVRIR</button>
+            </div>
+            <img class="imgrom" src="./img/Bleue.png" alt="offre-romantique">
+            
+        </div>
+
+        <div class="offre1">
+            <div>
+                <h4>L'Exploration Culturelle : </h4>
+                <p class="poffre1"> 
+                    Pour les amateurs de culture, randonneurs, voyageurs en quête d'authenticité et de nature
+                </p>
+                <ul>
+                    <li>- 14 à 16 jours</li>
+                    <li>- Itinéraire :Tahiti (2N), Huahine (4N), Raiatea & Taha'a (4N) et Moorea (4N)</li>
+                </ul>
+                <h4>L'expérience :</h4>
+                <ul>
+                    <li>- Huahine : découverte des sites archéologiques (marae) et ambiance locale</li>
+                    <li>- Raiatea : visite du site sacré de Taputapuātea (UNESCO) et remontée de la rivière Faaroa</li>
+                    <li>- Taha'a : visite de vanilleraies et du célèbre Jardin de Corail</li>
+                    <li>Exploration de l'intérieur des terres sur Tahiti et Moorea.</li>
+                
+                </ul>
+                <button class="bt1">DÉCOUVRIR</button>
+            </div>
+            <img class="imgrom" src="./img/Culturelle.png" alt="offre-romantique">
+        
+        </div>
+
+    </section class="dernier" >
+    <footer>
+        <div class="nav box-footer">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="page1.html">Safari</a></li>
+                <li><a href="page2.html">Cinque Terre</a></li>
+                <li><a href="page3.html">Polynésie</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="stars box-footer">
+            <div class="rating">
+                <img src="./img/STARS.png" alt="">
+                <p>4,8 sur 5</p>
+                <p>300 avis</p>
+            </div>
+            <img src="./img/PLANE.png" class="plane" alt="">
+        </div>
+    
+        <div class="right box-footer">
+            <img src="./img/INSTAGRAM.png" alt="">
+            <img src="./img/TWITTER.png" alt="">
+            <img src="./img/YOUTUBE.png" alt="">
+            <img src="./img/FACEBOOK.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>
